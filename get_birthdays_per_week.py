@@ -93,4 +93,55 @@ def _order_congratulations_list(congratulations_list, current_day):
 
 
 if __name__ == "__main__":
+
+    users = [{"name":"Ivan1",
+              "birthday":datetime(year=1988, month=7, day=24)
+             },
+             {"name":"Ivan2",
+              "birthday":datetime(year=1989, month=7, day=25)
+             },
+             {"name":"Ivan3",
+              "birthday":datetime(year=1990, month=7, day=26)
+             },
+             {"name":"Ivan4",
+              "birthday":datetime(year=1991, month=7, day=27)
+             },
+             {"name":"Ivan5",
+              "birthday":datetime(year=1992, month=7, day=28)
+             },
+             {"name":"Ivan6",
+              "birthday":datetime(year=1972, month=7, day=29)
+             },
+             {"name":"Ivan7",
+              "birthday":datetime(year=1975, month=7, day=30)
+             },
+             {"name":"Ivan8",
+              "birthday":datetime(year=1976, month=8, day=1)
+             },
+             {"name":"Ivan9",
+              "birthday":datetime(year=1977, month=8, day=2)
+             },
+             {"name":"Ivan10",
+              "birthday":datetime(year=1978, month=8, day=3)
+             },
+             {"name":"Ivan11",
+              "birthday":datetime(year=1980, month=8, day=4)
+             },
+             {"name":"Ivan12",
+              "birthday":datetime(year=1980, month=8, day=8)
+             },
+             {"name":"Ivan13",
+              "birthday":datetime(year=1980, month=8, day=9)
+             },
+             {"name":"Ivan114",
+              "birthday":datetime(year=1980, month=8, day=10)
+             },
+             {"name":"Ivan115",
+              "birthday":datetime(year=1980, month=8, day=11)
+             },
+             {"name":"Ivan116",
+              "birthday":datetime(year=1980, month=8, day=12)
+             }
+            ]
+
     get_birthdays_per_week(users)
